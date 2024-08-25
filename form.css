@@ -20,7 +20,7 @@ input,select{
 }
 
 .desktop-only{
-    display: none;
+    display: block;
 }
 
 .center{
