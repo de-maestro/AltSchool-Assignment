@@ -1,0 +1,42 @@
+h1{
+    color:black
+}
+
+label{
+    display: block;
+    font-size: 16px;
+}
+
+input,select{
+    display: block;
+    width: 100px;
+    padding: 16px 24px 16px 10px;
+    background-color: #fafafa;
+    border: none;
+}
+
+.input:hover,select:hover{
+    border:1px solid #4096ff;
+}
+
+.desktop-only{
+    display: none;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alt-logo{
+    margin-bottom: 20px;
+}
+
+.sign-in{
+    margin-bottom:16px;
+}
+
+.form{
+    padding: 15px 15px 90px;
+}
