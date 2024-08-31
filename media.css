@@ -1,3 +1,141 @@
 h1{
     color:blue
 }
+
+/* media.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav p {
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+audio, video, iframe {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* Picture Styles */
+picture {
+    display: block;
+    margin: 20px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer button {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer button svg {
+    vertical-align: middle;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    header p {
+        font-size: 0.9em;
+    }
+
+    footer button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
